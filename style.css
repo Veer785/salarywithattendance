@@ -1,0 +1,45 @@
+.att-box {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.att-box.present {
+  background-color: green;
+  color: white;
+}
+
+.att-box.absent {
+  background-color: red;
+  color: white;
+  border-radius: 0;
+}
+
+.att-box.half {
+  background-color: orange;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  color: white;
+  font-size: 12px;
+}
+
+.att-box.sunday {
+  background-color: lightblue;
+}
+
+.sunday-label {
+  background-color: #cde6ff !important;
+  color: #003366;
+}
+
+.action-btn {
+  min-width: 250px;
+}
